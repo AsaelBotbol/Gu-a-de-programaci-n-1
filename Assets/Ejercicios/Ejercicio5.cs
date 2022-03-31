@@ -8,16 +8,15 @@ public class Ejercicio5 : MonoBehaviour
     public int num1;
     public int num2;
 
-    // Start is called before the first frame update
     void Start()
     {
-        int division = num1 / num2;
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (num2 == 0)
+        {
+            Debug.Log("No se puede dividir por '0'");
+        }
+        else
+        {
+            Debug.Log("el resultado de la divición entre " + num1 + " y " + num2 + " da como resultado " + (num1 / num2));
+        }
     }
 }
