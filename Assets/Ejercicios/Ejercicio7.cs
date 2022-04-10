@@ -36,12 +36,5 @@ public class Ejercicio7 : MonoBehaviour
         {
             Debug.Log(num3);
         }
-
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }
